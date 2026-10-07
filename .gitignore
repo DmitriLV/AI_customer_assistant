@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# Secrets
+.env
+
+# Local vector store and answer caches
+chroma_db/
+*.db
+
+# Earlier evaluation scripts
+evaluate_ragas1.py
+evaluate_ragas2.py
